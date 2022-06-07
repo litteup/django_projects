@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Employee Information</title>
+    <link rel="stylesheet" href="{% static "templatesApp/css/emp.css" %}"
+</head>
+<body>
+    <h1>Employee Details</h1>
+	<ol>
+        <li>Id: {{id}}</li>
+        <li>Name: {{name}} </li>
+        <li>Salary: {{sal}}</li>
+    </ol>
+    <img src="{% static 'templatesApp/images/rat.jpeg' %}" alt="Rat Image">
+</body>
+</html>
